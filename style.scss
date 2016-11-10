@@ -1,0 +1,109 @@
+$darkPurple: #dd99ff;
+$lightYellow: #ffff99;
+$lightPurple: #f7e6ff;
+$pageColor: #fff2e6;
+
+.h1 {
+    background-color: $darkPurple;
+    center {
+        span#title {
+            position: relative;
+            font-size: 200px;
+            display:inline-block;
+            text-align: center;
+            color: $lightYellow;
+            top: 50px;  
+        }
+    }
+    p#h1notes {
+        color: ghostwhite;
+    }
+}
+.v2 {
+    background-color: $lightPurple;
+    .homepic {
+        position: absolute;
+        top: 10%;
+        width: 50%;
+        left: 25%;
+        max-height: 700px;
+    }
+    .homepic:hover {
+        cursor: pointer;
+    }
+}
+.wand {
+    background-color: white;
+}
+
+
+#bottom {
+    position:fixed;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    max-height: 10%;
+}
+.page {
+    background-color: $pageColor;
+}
+.page-content {
+    position: fixed;
+    left: 150px;
+    color: $darkPurple;
+    span{
+        text-align:center;
+        font-size: 50px;
+    }
+        
+        .art {
+            text-shadow: 0 0 15px $lightYellow;
+}
+        }
+        .rule {
+            color: $lightYellow;
+            text-shadow: 0 0 15px $darkPurple;
+        }
+
+    ul {
+        position: fixed;
+        top: 80px;
+        padding: 60px;
+        li {
+            list-style: none;
+            font-size: 20px;
+            
+        }
+        li:hover {
+            cursor: pointer;
+        }
+    }
+    p{
+        position: fixed;
+        top: 200px;
+        max-width: 600px;
+    }
+
+#ribbon {
+    display: inline-block;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    height: 300px;
+    width: 119px;
+    background-image: url("images/ribbon.png");
+    #nav {
+        padding: 20px;
+    }
+}
+#sm {
+    position: fixed;
+    display:inline-block;
+    box-sizing: border-box;
+    width: 100px;
+    height: 400px;
+    border: 2px solid $lightYellow;
+    right: 2px;
+    bottom: 30px;
+    color: $lightYellow;
+}

@@ -1,0 +1,88 @@
+.h1 {
+  background-color: #dd99ff; }
+  .h1 center span#title {
+    position: relative;
+    font-size: 200px;
+    display: inline-block;
+    text-align: center;
+    color: #ffff99;
+    top: 50px; }
+  .h1 p#h1notes {
+    color: ghostwhite; }
+
+.v2 {
+  background-color: #f7e6ff; }
+  .v2 .homepic {
+    position: absolute;
+    top: 10%;
+    width: 50%;
+    left: 25%;
+    max-height: 700px; }
+  .v2 .homepic:hover {
+    cursor: pointer; }
+
+.wand {
+  background-color: white; }
+
+#bottom {
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  bottom: 0px;
+  max-height: 10%; }
+
+.page {
+  background-color: #fff2e6; }
+
+.page-content {
+  position: fixed;
+  left: 150px;
+  color: #dd99ff; }
+  .page-content span {
+    text-align: center;
+    font-size: 50px; }
+  .page-content .art {
+    text-shadow: 0 0 15px #ffff99; }
+
+.rule {
+  color: #ffff99;
+  text-shadow: 0 0 15px #dd99ff; }
+
+ul {
+  position: fixed;
+  top: 80px;
+  padding: 60px; }
+  ul li {
+    list-style: none;
+    font-size: 20px; }
+  ul li:hover {
+    cursor: pointer; }
+
+p {
+  position: fixed;
+  top: 200px;
+  max-width: 600px; }
+
+#ribbon {
+  display: inline-block;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0px;
+  height: 300px;
+  width: 119px;
+  background-image: url("images/ribbon.png"); }
+  #ribbon #nav {
+    padding: 20px; }
+
+#sm {
+  position: fixed;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100px;
+  height: 400px;
+  border: 2px solid #ffff99;
+  right: 2px;
+  bottom: 30px;
+  color: #ffff99; }
+
+/*# sourceMappingURL=style.css.map */
