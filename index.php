@@ -36,14 +36,14 @@
             
             <ul>
                 <li><a href="toc1.php" target="_blank">ToC v1</a> - a full-screen perspective of the table of contents page with a list of the rules which act as links to the page for each rule</li>
-                <li><a href="toc2.php" target="_blank">ToC v2</a> - zoomed out page view of the table of contents</li>
+                <li><a href="toc2.php" target="_blank">ToC v2</a> - zoomed out book view of the table of contents</li>
             </ul>
 
             <h3>Rule Page Versions:</h3>
             
             <ul>
-                <li><a href="rule1.php" target="_blank">Rule page v1</a></li>
-                <li><a href="rule2.php" target="_blank">Rule page v2</a></li>
+                <li><a href="rule1.php" target="_blank">Rule page v1</a> - full-screen view of the rule page</li>
+                <li><a href="rule2.php" target="_blank">Rule page v2</a> - zoomed out, book view of the rule page</li>
             </ul>
             
         </p>

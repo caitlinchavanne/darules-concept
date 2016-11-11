@@ -3,8 +3,10 @@
         $("body").addClass("wand");
     });</script>
 
-    
-   <img class="homepic" src="images/wand.png">
+    <div class="pre">
+        <center><img  src="images/wand.png"></center>
+</div>
+   
 <!--    
     the wand screen is a possible entry page which poofs into the rule book
 -->

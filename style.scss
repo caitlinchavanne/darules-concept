@@ -34,6 +34,7 @@ $pageColor: #fff2e6;
 }
 .wand {
     background-color: white;
+    
 }
 
 
@@ -56,14 +57,9 @@ $pageColor: #fff2e6;
         font-size: 50px;
     }
         
-        .art {
-            text-shadow: 0 0 15px $lightYellow;
-}
+        
         }
-        .rule {
-            color: $lightYellow;
-            text-shadow: 0 0 15px $darkPurple;
-        }
+
 
     ul {
         position: fixed;
@@ -106,4 +102,87 @@ $pageColor: #fff2e6;
     right: 2px;
     bottom: 30px;
     color: $lightYellow;
+}
+.homepic {
+        display:inline-block;
+        position: fixed;
+        align-content: center;
+        width: 100%;
+       
+}
+
+    .open {
+        position: fixed;
+        width: 96%;
+        max-height: 98%;
+    }
+.toct {
+    color: $darkPurple;
+    display: inline-block;
+        position:fixed;
+        top: 150px;
+        left: 20%;
+    ul {
+        top: 200px;
+    }
+}
+.box {
+    font-size: 30px;
+    color: $darkPurple;
+    display:inline-block;
+    position:fixed;
+    box-sizing: border-box;
+    border: 5px solid $lightYellow;
+}
+.soc {
+    
+    left: 30%;
+    top: 93%;
+}
+.nav2 {
+    padding:20px 0px;
+    left: 75%;
+    top: 20%;
+}
+.art {
+    color: $darkPurple;
+    text-shadow: 0 0 15px $lightYellow;
+    font-size: 40px;
+}
+.rule {
+    color: $lightYellow;
+    text-shadow: 0 0 15px $darkPurple;
+    font-size: 30px;
+}
+.page2 {
+    display: inline-block;
+    position: fixed;
+    .art {
+        position: fixed;
+        top: 100px;
+        left: 25%;
+        font-size: 50px;
+    }
+    .rule {
+        position: fixed;
+        top: 150px;
+        left: 25%;
+        font-size: 40px;
+    }
+    p {
+        width: 400px;
+        left: 20%;
+        top: 30%;
+        color: $darkPurple;
+    }
+}
+.pre {
+    
+    top: 30px;
+    center {
+        img {
+            position: relative;
+            top: 100px;
+        }
+    }
 }

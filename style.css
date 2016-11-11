@@ -41,12 +41,6 @@
   .page-content span {
     text-align: center;
     font-size: 50px; }
-  .page-content .art {
-    text-shadow: 0 0 15px #ffff99; }
-
-.rule {
-  color: #ffff99;
-  text-shadow: 0 0 15px #dd99ff; }
 
 ul {
   position: fixed;
@@ -84,5 +78,77 @@ p {
   right: 2px;
   bottom: 30px;
   color: #ffff99; }
+
+.homepic {
+  display: inline-block;
+  position: fixed;
+  align-content: center;
+  width: 100%; }
+
+.open {
+  position: fixed;
+  width: 96%;
+  max-height: 98%; }
+
+.toct {
+  color: #dd99ff;
+  display: inline-block;
+  position: fixed;
+  top: 150px;
+  left: 20%; }
+  .toct ul {
+    top: 200px; }
+
+.box {
+  font-size: 30px;
+  color: #dd99ff;
+  display: inline-block;
+  position: fixed;
+  box-sizing: border-box;
+  border: 5px solid #ffff99; }
+
+.soc {
+  left: 30%;
+  top: 93%; }
+
+.nav2 {
+  padding: 20px 0px;
+  left: 75%;
+  top: 20%; }
+
+.art {
+  color: #dd99ff;
+  text-shadow: 0 0 15px #ffff99;
+  font-size: 40px; }
+
+.rule {
+  color: #ffff99;
+  text-shadow: 0 0 15px #dd99ff;
+  font-size: 30px; }
+
+.page2 {
+  display: inline-block;
+  position: fixed; }
+  .page2 .art {
+    position: fixed;
+    top: 100px;
+    left: 25%;
+    font-size: 50px; }
+  .page2 .rule {
+    position: fixed;
+    top: 150px;
+    left: 25%;
+    font-size: 40px; }
+  .page2 p {
+    width: 400px;
+    left: 20%;
+    top: 30%;
+    color: #dd99ff; }
+
+.pre {
+  top: 30px; }
+  .pre center img {
+    position: relative;
+    top: 100px; }
 
 /*# sourceMappingURL=style.css.map */
